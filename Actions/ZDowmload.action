@@ -1,0 +1,13 @@
+{
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "",
+			"Query": "Customers"
+		}
+	],
+	"OnFailure": "/SAPAssetManager/Actions/ZSyncFail.action",
+	"OnSuccess": "/SAPAssetManager/Actions/ZsyncSucc.action",
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Type": "Action.Type.OfflineOData.Download"
+}

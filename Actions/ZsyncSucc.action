@@ -1,0 +1,6 @@
+{
+	"Duration": 3,
+	"MaxNumberOfLines": 3,
+	"Message": "Sync Succ",
+	"_Type": "Action.Type.ToastMessage"
+}

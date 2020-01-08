@@ -1,0 +1,128 @@
+{
+    "DisplayName": "SAP Crew Manager",
+    "ApplicationName": "SAPCrewManager",
+    "ComponentVersion": "2.0.0",
+    "ProjectName": "Crew",
+    "IntegrationPoints": [
+        {
+            "Source": "/SAPCrewManager/Pages/Overview.page",
+            "Target": "/SAPAssetManager/Pages/Overview.page"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n.properties",
+            "Target": "/SAPAssetManager/i18n/i18n.properties"
+        },
+          {
+            "Source": "/SAPCrewManager/i18n/i18n_de.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_de.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n_fr.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_fr.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n_da.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_da.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n_ar.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_ar.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n_nb.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_nb.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n_en.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_en.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n_pt.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_pt.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/i18n/i18n_es.properties",
+            "Target": "/SAPAssetManager/i18n/i18n_es.properties"
+        },
+        {
+            "Source": "/SAPCrewManager/Actions/Documents/DownloadOfflineOData.action",
+            "Target": "/SAPAssetManager/Actions/Documents/DownloadOfflineOData.action"
+        },
+        {
+            "Source": "/SAPCrewManager/Actions/OData/InitializeOfflineOData.action",
+            "Target": "/SAPAssetManager/Actions/OData/InitializeOfflineOData.action"
+        },
+        {
+            "Source": "/SAPCrewManager/Actions/TimeSheets/TimeSheetEntryCreateUpdateCreate.action",
+            "Target": "/SAPAssetManager/Actions/TimeSheets/TimeSheetEntryCreateUpdateCreate.action"
+        },
+        {
+            "Source": "/SAPCrewManager/Actions/TimeSheets/TimeSheetEntryDetailsNav.action",
+            "Target": "/SAPAssetManager/Actions/TimeSheets/TimeSheetEntryDetailsNav.action"
+        },
+        {
+            "Source": "/SAPCrewManager/Pages/TimeSheets/TimeSheetEntryCreateUpdate.page",
+            "Target": "/SAPAssetManager/Pages/TimeSheets/TimeSheetEntryCreateUpdate.page"
+        },
+        {
+            "Source": "/SAPCrewManager/Pages/TimeSheets/TimeSheetEntryDetails.page",
+            "Target": "/SAPAssetManager/Pages/TimeSheets/TimeSheetEntryDetails.page"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/Common/InitializeGlobalStates.js",
+            "Target": "/SAPAssetManager/Rules/Common/InitializeGlobalStates.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/TimeSheets/CreateUpdate/TimeSheetCreateUpdateCreateLinks.js",
+            "Target": "/SAPAssetManager/Rules/TimeSheets/CreateUpdate/TimeSheetCreateUpdateCreateLinks.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/TimeSheets/Entry/CreateUpdate/TimeSheetEntryCreateNav.js",
+            "Target": "/SAPAssetManager/Rules/TimeSheets/Entry/CreateUpdate/TimeSheetEntryCreateNav.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/TimeSheets/Entry/CreateUpdate/TimeSheetEntryCreateUpdateOnPageLoad.js",
+            "Target": "/SAPAssetManager/Rules/TimeSheets/Entry/CreateUpdate/TimeSheetEntryCreateUpdateOnPageLoad.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Pages/TimeSheets/TimeSheetEntriesListView.page",
+            "Target": "/SAPAssetManager/Pages/TimeSheets/TimeSheetEntriesListView.page"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/Sync/CheckForSyncErrorsAfterDownloadSuccess.js",
+            "Target": "/SAPAssetManager/Rules/Sync/CheckForSyncErrorsAfterDownloadSuccess.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/OverviewPage/TimeCaptureSection/TimeCaptureSectionTodayHours.js",
+            "Target": "/SAPAssetManager/Rules/OverviewPage/TimeCaptureSection/TimeCaptureSectionTodayHours.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/OverviewPage/TimeCaptureSection/TimeCaptureSectionYesterdayHours.js",
+            "Target": "/SAPAssetManager/Rules/OverviewPage/TimeCaptureSection/TimeCaptureSectionYesterdayHours.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Actions/TimeSheets/TimeSheetEntryCreateUpdateUpdate.action",
+            "Target": "/SAPAssetManager/Actions/TimeSheets/TimeSheetEntryCreateUpdateUpdate.action"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/OverviewPage/TimeCaptureSection/OnPressTimeCaptureSectionToday.js",
+            "Target": "/SAPAssetManager/Rules/OverviewPage/TimeCaptureSection/OnPressTimeCaptureSectionToday.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/OverviewPage/TimeCaptureSection/OnPressTimeCaptureSectionTomorrow.js",
+            "Target": "/SAPAssetManager/Rules/OverviewPage/TimeCaptureSection/OnPressTimeCaptureSectionTomorrow.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Rules/TimeSheets/Entry/CreateUpdate/TimeSheetEntryEditOnPageLoad.js",
+            "Target": "/SAPAssetManager/Rules/TimeSheets/Entry/CreateUpdate/TimeSheetEntryEditOnPageLoad.js"
+        },
+        {
+            "Source": "/SAPCrewManager/Actions/TimeSheets/TimeSheetEntryDiscard.action",
+            "Target": "/SAPAssetManager/Actions/TimeSheets/TimeSheetEntryDiscard.action"
+        },
+        {
+            "Source": "/SAPCrewManager/Pages/TimeSheets/TimeSheetEntryCreateForWO.page",
+            "Target": "/SAPAssetManager/Pages/TimeSheets/TimeSheetEntryCreateForWO.page"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+	"Duration": 3,
+	"MaxNumberOfLines": 2,
+	"Message": "Sync start",
+	"OnFailure": "/SAPAssetManager/Actions/ZSyncFail.action",
+	"OnSuccess": "/SAPAssetManager/Actions/ZUpload.action",
+	"_Type": "Action.Type.ToastMessage"
+}

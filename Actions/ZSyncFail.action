@@ -1,0 +1,6 @@
+{
+	"Animated": true,
+	"Duration": 3,
+	"Message": "Sync Fail",
+	"_Type": "Action.Type.BannerMessage"
+}

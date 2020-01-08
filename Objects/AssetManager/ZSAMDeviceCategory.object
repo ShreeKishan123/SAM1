@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"DeviceCategories"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Material_Nav",
+			"_Type": "Material"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "DeviceCategory",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "DescriptionText",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "RegisterGroup",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/SAPAssetManager/Services/AssetManager.service",
+	"_Name": "ZSAMDeviceCategory"
+}
