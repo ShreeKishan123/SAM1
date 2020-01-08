@@ -1,0 +1,13 @@
+{
+	"Service": "/DemoApp/Services/MDPAppService.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}],
+	"_Type": "Action.Type.OfflineOData.Download",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/DemoApp/Actions/Service/SyncSuccessMessage.action",
+	"OnFailure": "/DemoApp/Actions/Service/SyncFailureMessage.action"
+}

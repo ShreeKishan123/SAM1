@@ -1,0 +1,15 @@
+{
+	"OnFailure": "/DemoApp/Actions/Service/CloseOfflineFailureMessage.action",
+	"OnSuccess": "/DemoApp/Actions/Service/CloseOffline.action",
+	"Properties": {
+		"EmailAddress": "#Control:EMail/#Value",
+		"FirstName": "#Control:FName/#Value",
+		"LastName": "#Control:LName/#Value",
+		"PhoneNumber": "#Control:PNumber/#Value"
+	},
+	"Target": {
+		"EntitySet": "Customers",
+		"Service": "/DemoApp/Services/MDPAppService.service"
+	},
+	"_Type": "Action.Type.ODataService.CreateEntity"
+}

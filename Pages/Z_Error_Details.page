@@ -1,0 +1,33 @@
+{
+	"Caption": "Z_Error_Details",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Header": {
+						"Caption": "/DemoApp/Rules/ZGetAffectedEntityHeaderCaption.js",
+						"UseTopPadding": true
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": false,
+						"Subhead": "{@odata.id}",
+						"Title": "Edit Affected Entity"
+					},
+					"Target": "#Property:AffectedEntity",
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Z_Error_Details",
+	"_Type": "Page"
+}

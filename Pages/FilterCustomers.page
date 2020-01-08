@@ -1,0 +1,11 @@
+{
+	"Caption": "Filter",
+	"Controls": [
+		{
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "FilterCustomers",
+	"_Type": "Page"
+}

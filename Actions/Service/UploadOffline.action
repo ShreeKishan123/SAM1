@@ -1,0 +1,9 @@
+{
+	"Service": "/DemoApp/Services/MDPAppService.service",
+	"_Type": "Action.Type.OfflineOData.Upload",
+	"ActionResult": {
+		"_Name": "sync"
+	},
+	"OnSuccess": "/DemoApp/Actions/Service/DownloadOffline.action",
+	"OnFailure": "/DemoApp/Actions/Service/SyncFailureMessage.action"
+}

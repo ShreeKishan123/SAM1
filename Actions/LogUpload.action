@@ -1,0 +1,7 @@
+{
+	"ActivityIndicatorText": "Uploading Logs",
+	"OnFailure": "/DemoApp/Actions/LogUploadFailure.action",
+	"OnSuccess": "/DemoApp/Actions/LogUploadSuccess.action",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.Logger.Upload"
+}

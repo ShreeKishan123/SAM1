@@ -1,0 +1,6 @@
+{
+	"Animated": true,
+	"Duration": 3,
+	"Message": "Error during uploading",
+	"_Type": "Action.Type.BannerMessage"
+}

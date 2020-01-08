@@ -1,0 +1,75 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/DemoApp/Actions/FilterCustomers.action",
+				"Position": "left",
+				"Text": "Filter",
+				"Visible": true
+			},
+			{
+				"OnPress": "/DemoApp/Actions/CreateCustomers.action",
+				"Position": "Right",
+				"SystemItem": "Add",
+				"Text": "Add",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Customers",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ContactCell": {
+						"ActivityItems": [
+							{
+								"ActivityType": "Phone",
+								"ActivityValue": "{PhoneNumber}"
+							},
+							{
+								"ActivityType": "Email",
+								"ActivityValue": "{EmailAddress}"
+							},
+							{
+								"ActivityType": "Detail",
+								"ActivityValue": "This is an alert"
+							}
+						],
+						"Headline": "{FirstName}",
+						"OnPress": "/DemoApp/Actions/CustomerDetails.action",
+						"Subheadline": "{LastName}"
+					},
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Footer": {
+						"AccessoryType": "disclosureIndicator",
+						"AttributeLabel": "/DemoApp/Rules/ZdataCount.js",
+						"Caption": "See All",
+						"UseBottomPadding": false,
+						"Visible": true
+					},
+					"Search": {
+						"BarcodeScanner": true,
+						"Enabled": true,
+						"Placeholder": "Search"
+					},
+					"Target": {
+						"EntitySet": "Customers",
+						"QueryOptions": "",
+						"ReadLink": "",
+						"Service": "/DemoApp/Services/MDPAppService.service"
+					},
+					"Visible": true,
+					"_Name": "SectionContactCellTable0",
+					"_Type": "Section.Type.ContactCell"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "CustomerList",
+	"_Type": "Page"
+}

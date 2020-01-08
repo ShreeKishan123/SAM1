@@ -1,0 +1,62 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/DemoApp/Actions/ClosePage.action",
+				"Position": "left",
+				"Text": "Close",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Profile",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"SimplePropertyCells": [
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "PassCode",
+								"OnPress": "/DemoApp/Rules/ZChangeUserPasscode.js",
+								"Value": "Value",
+								"Visible": true
+							}
+						},
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "Support",
+								"OnPress": "/DemoApp/Actions/ZSupportIosPage.action",
+								"Value": "Value",
+								"Visible": true
+							}
+						},
+						{
+							"SimplePropertyCell": {
+								"AccessoryType": "disclosureIndicator",
+								"KeyName": "Sync",
+								"Value": "Value",
+								"Visible": true
+							}
+						}
+					],
+					"Visible": true,
+					"_Name": "SectionSimplePropertyCollection3",
+					"_Type": "Section.Type.SimplePropertyCollection"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ZProfilePage",
+	"_Type": "Page"
+}

@@ -1,0 +1,13 @@
+{
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "Customers",
+			"Query": "Customers"
+		}
+	],
+	"OnFailure": "/DemoApp/Actions/zSyncFailureMessagefinal.action",
+	"OnSuccess": "/DemoApp/Actions/zSyncSuccessMessage.action",
+	"Service": "/DemoApp/Services/MDPAppService.service",
+	"_Type": "Action.Type.OfflineOData.Download"
+}

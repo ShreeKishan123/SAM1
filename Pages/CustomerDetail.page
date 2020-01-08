@@ -1,0 +1,54 @@
+{
+	"Caption": "Customer Details",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "{DateOfBirth}",
+						"Description": "{CustomerId}",
+						"DetailImageIsCircular": false,
+						"Footnote": "{EmailAddress}",
+						"HeadlineText": "{LastName}",
+						"PreserveIconStackSpacing": true,
+						"ProgressIndicator": "inProgress",
+						"StatusText": "{PhoneNumber}",
+						"Styles": {
+							"Footnote": "{EmailAddress}",
+							"StatusText": "{DateOfBirth}"
+						},
+						"Subhead": "{LastName}"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				},
+				{
+					"KeyAndValues": [
+						{
+							"KeyName": "Address",
+							"Value": "{{#Property:Address/#Property:HouseNumber}}",
+							"Visible": true
+						},
+						{
+							"KeyName": "City",
+							"Value": "{{#Property:Address/#Property:City}}",
+							"Visible": true
+						}
+					],
+					"Layout": {
+						"NumberOfColumns": 2
+					},
+					"MaxItemCount": 1,
+					"Visible": true,
+					"_Name": "SectionKeyValue0",
+					"_Type": "Section.Type.KeyValue"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "CustomerDetail",
+	"_Type": "Page"
+}

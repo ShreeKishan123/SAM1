@@ -1,0 +1,6 @@
+{
+	"Animated": true,
+	"Duration": 2,
+	"Message": "Passcode ChangeFailed",
+	"_Type": "Action.Type.BannerMessage"
+}

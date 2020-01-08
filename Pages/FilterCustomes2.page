@@ -1,0 +1,34 @@
+{
+	"Caption": "Filter",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"AllowEmptySelection": true,
+							"AllowMultipleSelection": true,
+							"Caption": "Filter by",
+							"FilterProperty": "/DemoApp/Rules/ZfilterRule.js",
+							"IsEditable": true,
+							"_Name": "FormCellFilter0",
+							"_Type": "Control.Type.FormCell.Filter"
+						},
+						{
+							"IsVisible": true,
+							"TextAlignment": "center",
+							"Title": "Button",
+							"_Name": "FormCellButton0",
+							"_Type": "Control.Type.FormCell.Button"
+						}
+					],
+					"Visible": true
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "FilterCustomes2",
+	"_Type": "Page"
+}
