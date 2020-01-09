@@ -14,4 +14,3 @@ return utilsModule.openUrl("https://www.sap.com").then(
     }
 });
 }
-//Sssss
