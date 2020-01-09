@@ -1,0 +1,39 @@
+{
+	"Caption": "Z_Error_List",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"Caption": "Z_No Sync Error Found",
+						"FooterVisible": false
+					},
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"DetailImageIsCircular": false,
+						"Footnote": "Footnote",
+						"OnPress": "/DemoApp/Actions/ZShowErrorDetails.action",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "{RequestMethod}",
+						"Subhead": "{RequestURL}",
+						"Title": "{HTTPStatusCode}"
+					},
+					"Search": {
+						"Enabled": true
+					},
+					"Target": {
+						"EntitySet": "ErrorArchive",
+						"Service": "/DemoApp/Services/MDPAppService.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Z_Error_List",
+	"_Type": "Page"
+}

@@ -1,0 +1,15 @@
+{
+	"Service": "/DemoApp/Services/MDPAppService.service",
+	"DefiningRequests": [{
+		"Name": "Customers",
+		"Query": "Customers"
+	}],
+	"_Type": "Action.Type.OfflineOData.Initialize",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "DownLoading...",
+	"ActionResult": {
+		"_Name": "init"
+	},
+	"OnSuccess": "/DemoApp/Actions/Service/InitializeOfflineSuccessMessage.action",
+	"OnFailure": "/DemoApp/Actions/Service/InitializeOfflineFailureMessage.action"
+}

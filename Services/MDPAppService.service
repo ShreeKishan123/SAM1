@@ -1,0 +1,6 @@
+{
+	"AppId": "com.si.mdk_Shree",
+	"DestinationName": "com.sap.edm.sampleservice.v2",
+	"OfflineEnabled": true,
+	"ServiceUrl": "/destinations/mobileservices"
+}

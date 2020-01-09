@@ -1,0 +1,44 @@
+{
+	"Caption": "Support",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ContactCells": [
+						{
+							"ContactCell": {
+								"ActivityItems": [
+									{
+										"ActivityType": "VideoCall",
+										"ActivityValue": "000-000-0000"
+									},
+									{
+										"ActivityType": "Email",
+										"ActivityValue": "sample@sap.com"
+									},
+									{
+										"ActivityType": "Detail",
+										"ActivityValue": "This is an alert"
+									}
+								],
+								"DetailImage": "res://contact.png",
+								"Headline": "Contact us",
+								"Visible": true
+							}
+						}
+					],
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Visible": true,
+					"_Name": "SectionContactCellTable0",
+					"_Type": "Section.Type.ContactCell"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ZUserSupportIos",
+	"_Type": "Page"
+}

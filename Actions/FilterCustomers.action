@@ -1,0 +1,5 @@
+{
+	"Filterable": "#Page:CustomerList/#Control:SectionedTable0",
+	"PageToOpen": "/DemoApp/Pages/FilterCustomes2.page",
+	"_Type": "Action.Type.Filter"
+}

@@ -5,6 +5,7 @@
         "es6" : true
     },
     "rules" : {
+<<<<<<< HEAD
         "no-undef" : 2,
         "no-unused-vars" : 2,
         "indent": 0,
@@ -18,5 +19,14 @@
         },
         "spread" : true,
         "restParams" : true
+=======
+        "no-undef" : 2
+    },
+    "parserOptions": {
+        "sourceType": "module",
+    	"ecmaFeatures": {
+	        "modules": true
+	    }
+>>>>>>> refs/heads/master
     }
  }

@@ -1,0 +1,55 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/DemoApp/Actions/ZErrorListPage.action",
+				"Position": "left",
+				"Text": "User",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Customers",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Footer": {
+						"AccessoryType": "disclosureIndicator",
+						"AttributeLabel": "/DemoApp/Rules/CountCustomers.js",
+						"Caption": "Total Customers",
+						"FooterStyle": "attribute",
+						"OnPress": "/DemoApp/Rules/ZCustomerSlide.js",
+						"UseBottomPadding": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					},
+					"MaxItemCount": 4,
+					"ObjectCell": {
+						"AccessoryType": "disclosureIndicator",
+						"PreserveIconStackSpacing": false,
+						"StatusText": "Status",
+						"Subhead": "{FirstName}",
+						"SubstatusText": "Substatus",
+						"Title": "{LastName}"
+					},
+					"Target": {
+						"EntitySet": "Customers",
+						"Service": "/DemoApp/Services/MDPAppService.service"
+					},
+					"Visible": true,
+					"_Name": "SectionObjectCollection0",
+					"_Type": "Section.Type.ObjectCollection"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ZCustomer2",
+	"_Type": "Page"
+}

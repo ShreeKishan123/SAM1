@@ -1,0 +1,70 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"OnPress": "/DemoApp/Actions/ClosePage.action",
+				"Position": "Left",
+				"SystemItem": "Cancel",
+				"Text": "Item",
+				"Visible": true
+			},
+			{
+				"OnPress": "/DemoApp/Actions/CreateCustomerEntity.action",
+				"Position": "Right",
+				"SystemItem": "Save",
+				"Text": "Item",
+				"Visible": true
+			}
+		]
+	},
+	"Caption": "Customer Create",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"Controls": [
+						{
+							"Caption": "First Name",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Default",
+							"PlaceHolder": "Name",
+							"_Name": "FName",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Last Name",
+							"IsEditable": true,
+							"IsVisible": true,
+							"PlaceHolder": "Name",
+							"_Name": "LName",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Phone",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Number",
+							"PlaceHolder": "Phone",
+							"_Name": "PNumber",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						},
+						{
+							"Caption": "Email",
+							"IsEditable": true,
+							"IsVisible": true,
+							"KeyboardType": "Default",
+							"PlaceHolder": "Email",
+							"_Name": "EMail",
+							"_Type": "Control.Type.FormCell.SimpleProperty"
+						}
+					]
+				}
+			],
+			"_Name": "FormCellContainer0",
+			"_Type": "Control.Type.FormCellContainer"
+		}
+	],
+	"_Name": "Customer_Create",
+	"_Type": "Page"
+}

@@ -1,0 +1,9 @@
+{
+	"Animated": true,
+	"Duration": 3,
+	"IsIconHidden": true,
+	"Message": "Syn Start",
+	"OnFailure": "/DemoApp/Actions/zSyncFailureMessage.action",
+	"OnSuccess": "/DemoApp/Actions/zUploadOffline.action",
+	"_Type": "Action.Type.ToastMessage"
+}

@@ -1,0 +1,59 @@
+/* The LESS stylesheet provides the ability to define styling styles that can be used to style the UI in the MDK app.
+
+Examples:
+
+@mdkYellow1: #ffbb33;
+@mdkRed1: #ff0000;
+
+//// By-Type style: All Pages in the application will now have a yellow background
+Page
+
+{ background-color: @mdkYellow1; }
+//// By-Name style: All Buttons with _Name == "RedButton" will now have this style
+#BlueButton
+
+{ color: @mdkYellow1; background-color: #0000FF; }
+//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function
+
+.MyButton
+
+{ color: @mdkYellow1; background-color: @mdkRed1; }
+*/
+
+@mdkYellow1: #ffbb33;
+@mdkRed1: #ff0000;
+
+//// This style applies to all the ActionBars in the application
+ActionBar {
+    color: white;
+    background-color: #6495ED; 
+}
+
+//// This style applies to all the ToolBars in the application
+ToolBar {
+    color: white;
+    background-color: #6495ED;  
+}
+
+//// LogoutToolbarItem is tool bar item for Logout in Main.page
+#LogoutToolbarItem  {
+    color: white;
+}
+
+//// UploadToolbarItem is tool bar item for Upload in Main.page
+#UploadToolbarItem  {
+    color: white;
+}
+
+//// By-Class style: These style classes can be referenced from rules and set using ClientAPI setStyle function
+//// below snippet is to style SalesOrder button on Main.page
+.MySalesOrderButton {
+  font-color: red;
+  background-color: white;
+}
+
+//// below snippet is to style Title property of an Object Table control in Customers_List.page
+.ObjectTableTitle {
+  font-color: white;
+  background-color: #6495ED;
+}

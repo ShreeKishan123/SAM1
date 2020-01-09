@@ -1,0 +1,6 @@
+{
+	"OnFailure": "/DemoApp/Actions/ZsyncFailure2.action",
+	"OnSuccess": "/DemoApp/Actions/zDownloadOffline.action",
+	"Service": "/DemoApp/Services/MDPAppService.service",
+	"_Type": "Action.Type.OfflineOData.Upload"
+}

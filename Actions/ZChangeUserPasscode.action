@@ -1,0 +1,5 @@
+{
+	"OnFailure": "/DemoApp/Actions/ZChngePscdFail.action",
+	"OnSuccess": "/DemoApp/Actions/ChangeUserPscdSucc.action",
+	"_Type": "Action.Type.ChangeUserPasscode"
+}

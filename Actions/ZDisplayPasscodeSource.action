@@ -1,0 +1,6 @@
+{
+	"Duration": 4,
+	"MaxNumberOfLines": 2,
+	"Message": "Passcode Change Not Allowed",
+	"_Type": "Action.Type.ToastMessage"
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"rulesExt": {
 		"accessor-pairs": {
@@ -1176,4 +1177,8 @@
 			"helpUrl": "http://eslint.org/docs/rules/yoda"
 		}
 	}
+=======
+{
+"rulesExt": {}
+>>>>>>> refs/heads/master
 }

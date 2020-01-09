@@ -1,0 +1,6 @@
+{
+	"Duration": 2,
+	"MaxNumberOfLines": 2,
+	"Message": "Pass code Change Sussess",
+	"_Type": "Action.Type.ToastMessage"
+}
