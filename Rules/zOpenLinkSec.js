@@ -7,3 +7,4 @@ return confirm("Do you want to leave the current app?").then((result, fails) => 
        	else{ return utilsModule.openUrl("https://en.wikipedia.org/wiki/India") }
 });
 }
+// Shree
